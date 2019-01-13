@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  userImage: string;
+
+
+  constructor() {
+
+    this.userImage = '/assets/dist/img/avatar.png';
+
+  }
   title = 'app';
 }
